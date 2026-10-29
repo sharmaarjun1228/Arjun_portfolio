@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f5f0"><meta name="description" content="Arjun Sharma — Power BI Developer and Data Analyst. Explore dashboards, analytics projects, skills and experience.">
+  <meta property="og:title" content="Arjun Sharma | Data & BI Portfolio"><meta property="og:description" content="A visual portfolio of data projects, dashboards and business impact.">
+  <title>Arjun Sharma — Data & BI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><script defer src="js/portfolio-data.js"></script><script defer src="js/main.js"></script>
+  <!-- Optional analytics: replace YOUR-CODE with your GoatCounter site code after deployment. -->
+  <script data-goatcounter="https://YOUR-CODE.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#home" aria-label="Arjun Sharma home"><span class="logo-mark">a<span>.</span></span><span>arjun<span class="wordmark-muted">.works</span></span></a>
+      <div class="topbar-center"><span class="availability-dot"></span><span>OPEN TO BI & ANALYTICS OPPORTUNITIES</span></div>
+      <div class="top-actions"><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark mode</span></button><a class="top-contact" href="#contact">Let’s connect <span>↗</span></a></div>
+    </header>
+
+    <main>
+      <section class="profile-hero" id="home">
+        <div class="profile-intro">
+          <div class="eyebrow"><span class="eyebrow-line"></span> DATA • DESIGN • DECISIONS</div>
+          <h1>Hey, I’m Arjun<span class="accent-dot">.</span><br><span class="headline-soft">I make data</span><br>make sense.</h1>
+          <p class="hero-description">Power BI Developer &amp; Data Analyst turning messy data into clear dashboards, better reporting, and decisions that move work forward.</p>
+          <div class="hero-buttons"><a class="pill-button pill-dark" href="#work">Explore my work <span>↘</span></a><a class="pill-button pill-light" href="assets/Arjun_Sharma_Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a></div>
+          <div class="hero-socials"><span>BASED IN BHOPAL, INDIA</span><span class="social-divider"></span><a href="mailto:arjunkumarsharma1228@gmail.com">EMAIL</a><a id="hero-linkedin" href="#contact" target="_blank" rel="noopener">LINKEDIN ↗</a></div>
+        </div>
+        <div class="profile-art portrait-stage" aria-label="Arjun Sharma portrait with a handwritten annotation">
+          <div class="art-topline"><span>ARJUN SHARMA</span><span>DATA &amp; BI / INDIA</span></div>
+          <div class="portrait-glow"></div><div class="portrait-orbit orbit-one"></div><div class="portrait-orbit orbit-two"></div>
+          <img class="arjun-portrait" src="assets/arjun-cutout.png" alt="Arjun Sharma smiling in a rust-orange polo shirt" fetchpriority="high">
+          <div class="handwritten-note">Hey, that’s me!<svg class="hand-arrow" viewBox="0 0 150 80" aria-hidden="true"><path d="M4 8 C34 8 46 27 67 38 S105 55 132 49"/><path d="M118 38 L133 49 L118 59"/></svg></div>
+          <div class="portrait-caption"><span class="caption-dot"></span><div><strong>Arjun Sharma</strong><small>Power BI Developer · Data Analyst</small></div><span class="caption-spark">✳</span></div>
+          <div class="floating-tag tag-dashboards"><span>↗</span><strong>50+</strong><small>dashboards</small></div>
+          <div class="floating-tag tag-sql"><span class="mini-bars"><i></i><i></i><i></i></span><strong>SQL</strong><small>Power BI · Python</small></div>
+          <div class="art-bottomline"><span>TURNING DATA INTO DECISIONS</span><span>BHOPAL, INDIA</span></div>
+        </div>
+      </section>
+
+      <section class="section-block" id="about">
+        <div class="section-heading"><div><span class="section-kicker">A LITTLE ABOUT ME</span><h2>Curious by nature.<br><span>Analytical by design.</span></h2></div><p>I work across the reporting journey—from understanding business questions and shaping SQL datasets to building Power BI dashboards that help people see what matters. At CRISP, I support government programmes and education systems with practical, decision-ready analytics.</p></div>
+        <div class="metric-row" id="stats-grid"></div>
+      </section>
+
+      <section class="section-block work-section" id="work">
+        <div class="section-heading work-heading"><div><span class="section-kicker">THE WORK WALL</span><h2>Projects, ideas<br><span>&amp; real-world impact.</span></h2></div><div class="work-heading-right"><p>A visual collection of problems solved with data, reporting, and a little curiosity.</p><div class="filter-row" id="project-filters" aria-label="Filter projects"></div></div></div>
+        <div class="masonry-grid" id="projects-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section-block toolkit-section" id="skills">
+        <div class="section-heading"><div><span class="section-kicker">MY TOOLKIT</span><h2>Good tools.<br><span>Better questions.</span></h2></div><p>The tools change. The goal stays the same: trustworthy data, clear communication, and reporting people can actually use.</p></div>
+        <div class="toolkit-grid" id="skills-groups"></div>
+      </section>
+
+      <section class="section-block journey-section" id="experience">
+        <div class="section-heading"><div><span class="section-kicker">THE JOURNEY SO FAR</span><h2>Building useful things,<br><span>one insight at a time.</span></h2></div><p>Professional experience, education, and the learning that keeps my work moving forward.</p></div>
+        <div class="journey-list" id="timeline"></div>
+      </section>
+
+      <section class="contact-section" id="contact"><div class="contact-decoration">LET’S BUILD<br>SOMETHING<br><em>MEANINGFUL ✳</em></div><div class="contact-copy"><span class="section-kicker">YOUR NEXT DATA PARTNER?</span><h2>Have a question<br>worth exploring?</h2><p>I’m always happy to talk about BI, analytics, dashboard development, or a good problem that needs a clear answer.</p><div class="contact-actions"><a class="pill-button pill-dark" id="email-link" href="mailto:arjunkumarsharma1228@gmail.com">Email me <span>↗</span></a><a class="pill-button pill-light" id="linkedin-link" href="#" target="_blank" rel="noopener">Connect on LinkedIn <span>↗</span></a></div></div></section>
+    </main>
+
+    <footer class="footer"><a class="wordmark" href="#home"><span class="logo-mark">a<span>.</span></span><span>arjun<span class="wordmark-muted">.works</span></span></a><p>Made with <span class="heart">♥</span> by Arjun Sharma</p><span class="footer-note">BUILT WITH CURIOSITY · <span id="year"></span></span></footer>
+  </div>
+
+  <nav class="bottom-nav" aria-label="Main navigation">
+    <a class="nav-item active" href="#home" data-nav="home"><span class="nav-icon">⌂</span><span>Home</span></a>
+    <a class="nav-item" href="#work" data-nav="work"><span class="nav-icon">▦</span><span>Projects</span></a>
+    <a class="nav-item nav-center" href="#about" data-nav="about"><span class="nav-icon">✳</span><span>About</span></a>
+    <a class="nav-item" href="#skills" data-nav="skills"><span class="nav-icon">◈</span><span>Skills</span></a>
+    <a class="nav-item" href="#contact" data-nav="contact"><span class="nav-icon">↗</span><span>Contact</span></a>
+  </nav>
+  <dialog class="project-dialog" id="project-dialog"><button class="dialog-close" aria-label="Close project details">×</button><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body></html>
